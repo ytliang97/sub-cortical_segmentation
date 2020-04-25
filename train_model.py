@@ -66,11 +66,14 @@ net.fit({'in1': x_train_axial,
 
 # get the testing image paths
 t1_test_paths, folder_names  = load_test_names(options)
-
+print(t1_test_paths)
+print(folder_names)
 # reload the network weights and build it 
 weights_path = os.path.join(CURRENT_PATH, 'nets')
 options['net_verbose'] = 0
 net = build_model(weights_path, options)
+
+print('hello?')
 
 # iterate through all test scans
 for t1, current_scan in zip(t1_test_paths, folder_names):

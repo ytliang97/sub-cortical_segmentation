@@ -1,0 +1,5 @@
+*.pkl
+*.pyc
+
+# for install gpuarray, not for implement this theano model
+libgpuarray/
