@@ -3,3 +3,4 @@
 
 # for install gpuarray, not for implement this theano model
 libgpuarray/
+.DS_Store

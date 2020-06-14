@@ -32,7 +32,7 @@ options = load_options(user_config)
 from cnn_cort.base import load_data, generate_training_set, load_test_names, test_scan
 from cnn_cort.nets import build_model
 
-'''
+
 # get data patches from all orthogonal views 
 x_axial, x_cor, x_sag, y, x_atlas, names = load_data(options)
 
@@ -80,7 +80,7 @@ for t1, current_scan in zip(t1_test_paths, folder_names):
     t = test_scan(net, t1, options)
     print "    -->  tested subject :", current_scan, "(elapsed time:", t, "min.)"
 
-
+'''
     
     
 
